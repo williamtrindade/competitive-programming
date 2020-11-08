@@ -33,7 +33,7 @@ public class A {
                 Tuple<Integer,Integer> bigger = new Tuple<Integer,Integer>(-1,0);
                 for (int i = 0; i < tuple.size(); i++) {
                     if (tuple.get(i).getY() > bigger.getValue(1)) {
-                        bigger.setValue(1)
+                        bigger.setValue(1);
                     }
                 }
             }
