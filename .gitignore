@@ -5,3 +5,4 @@ programming-contest.iml
 /out/
 .vscode
 *.iml
+*.class
