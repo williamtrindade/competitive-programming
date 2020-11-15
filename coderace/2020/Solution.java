@@ -95,7 +95,6 @@ class Decodificator {
         return result.toString();
     }
 
-
     String decodeString(List<String> chunkedArray) {
         StringBuilder result = new StringBuilder();
         for(String item: chunkedArray) {
