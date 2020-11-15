@@ -3,10 +3,8 @@ package icpc.y2020.firstphase.problems;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Scanner;
 
 public class B {
     private final static int GRID_SIZE = 10;
