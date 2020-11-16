@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 
-public class B {
+class B {
     private final static int GRID_SIZE = 10;
     private final static int VERTICAL = 1;
     private final static int HORIZONTAL = 0;
