@@ -6,6 +6,7 @@ import random
 import re
 import sys
 
+
 #
 # Complete the 'sockMerchant' function below.
 #
@@ -18,23 +19,22 @@ import sys
 def sockMerchant(n, ar):
     # Write your code here
     hashmap = {}
-    
+
     for color in ar:
         if color in hashmap:
             hashmap[color] = hashmap[color] + 1
         else:
             hashmap[color] = 1
-        
 
     counter = 0
-            
+
     for color, quantity in hashmap.items():
         if math.floor(quantity / 2) >= 1:
             counter = counter + math.floor(quantity / 2)
-            
+
     return counter
-        
-    
+
+
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
