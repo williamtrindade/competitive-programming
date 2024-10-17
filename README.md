@@ -9,3 +9,6 @@ https://www.coderace.com.br/
 
 ### Google Kick Start  
 https://codingcompetitions.withgoogle.com/kickstart
+
+___
+https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
